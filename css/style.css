@@ -6,11 +6,34 @@ article {
     background-color:aliceblue;
     margin-bottom: 15px;
 }
+
+.formation {
+    height: 30em;
+}
 .photo {
     position: absolute;
     top: 20px;
     right: 30px;
     border-radius: 30px;
+}
+
+.espace {
+    padding-top: 40px;
+}
+
+.photo2 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding-top: 50px;
+}
+
+.photo3 {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    padding-bottom: 20px;
+    padding-top: 200px;
 }
 
 body{
@@ -32,3 +55,32 @@ main {
     margin-right: 60px;
 }
 
+.liens {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    color: rgb(86, 183, 243);
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.nav {
+    text-decoration: none;
+    color: aliceblue;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+}
